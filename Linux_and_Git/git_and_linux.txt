@@ -1,4 +1,14 @@
- 
+UPGRADE TO RECENT PYTHON AND PIP
+
+1) nano .zprofile
++ write in .zprofile then select M-A Format to append
+2) alias = python='python3'
+3) save and quit terminal
+4) curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+5) python3 get-pip.py
+6) pip3 --version
+
+
 SET UP VIRTUAL ENVIRONMENT 
 
 1) python3 -m venv ~/.dockerproj 
