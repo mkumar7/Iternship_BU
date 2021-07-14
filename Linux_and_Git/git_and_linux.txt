@@ -38,7 +38,9 @@ COMMAND TO RUN JENKINS
 Running from: /Users/manishkumar/Downloads/jenkins.war
 java -jar jenkins.war
 
- 
+COMMAND TO RUN ANSIBLE
+1) 
+_____________________________________________________________
 GENERAL LINUX COMMAND 
 1) Vim 
 2) :q 
