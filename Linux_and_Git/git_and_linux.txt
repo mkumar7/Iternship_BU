@@ -10,6 +10,23 @@ TO BUILD DOCKER IMAGE
 1) docker build --tag=app . 
 2) docker image ls 
 3) docker run -it app bash 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+COMMAND TO RUN DOCKER
+brew install --cask virtualbox    
+$docker-machine create --driver virtualbox  worker2
+$docker run -d -p 80:80 docker/getting-started (start docker desktop )
+docker-machine ls  
+docker-machine rm default 
+docker-machine ip  manager2  
+docker-machine rm default  
+docker-machine env manager2  
+ docker-machine ssh manager1 
+rm -rf .git
+______________________________________________________________
+COMMAND TO RUN JENKINS
+1. Download Jenkins.war from web then run command below
+Running from: /Users/manishkumar/Downloads/jenkins.war
+java -jar jenkins.war
 
  
 GENERAL LINUX COMMAND 
