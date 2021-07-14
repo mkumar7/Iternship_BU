@@ -1,0 +1,31 @@
+ 
+SET UP VIRTUAL ENVIRONMENT 
+
+1) python3 -m venv ~/.dockerproj 
+2) source ~/.dockerproj/bin/activate 
+
+_____________________________________________________________ 
+
+TO BUILD DOCKER IMAGE 
+1) docker build --tag=app . 
+2) docker image ls 
+3) docker run -it app bash 
+
+ 
+GENERAL LINUX COMMAND 
+1) Vim 
+2) :q 
+3) cd .. 
+4) deactivate (to deactivate virtual environment) 
+
+SSH COMMAND 
+
+1) ssh-keygen -t rsa 
+2) cat /home/ec2-user/.ssh/id_rsa.pub 
+3) tar xvfz (to untar) 
+
+GIT COMMAND 
+1) git status 
+2) git add Dockerfile 
+3) git commit -m "adding file" 
+4) git push 
