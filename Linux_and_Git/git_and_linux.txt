@@ -7,6 +7,7 @@ UPGRADE TO RECENT PYTHON AND PIP
 4) curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 5) python3 get-pip.py
 6) pip3 --version
+7) brew install --cask myprogram
 
 
 SET UP VIRTUAL ENVIRONMENT 
@@ -38,7 +39,7 @@ COMMAND TO RUN JENKINS
 Running from: /Users/manishkumar/Downloads/jenkins.war
 java -jar jenkins.war
 
-COMMAND TO RUN ANSIBLE
+COMMAND TO RUN AND CREATE ANSIBLE
 1) 
 _____________________________________________________________
 GENERAL LINUX COMMAND 
@@ -58,3 +59,9 @@ GIT COMMAND
 2) git add Dockerfile 
 3) git commit -m "adding file" 
 4) git push 
+_________________________________________________________________
+COMMAND TO RUN VAGRANT
+1) vagrant up
+2) vagrant destroy -f
+3) vagrant ssh-config
+4) 
