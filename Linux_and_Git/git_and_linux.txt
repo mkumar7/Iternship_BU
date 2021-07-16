@@ -60,8 +60,11 @@ GIT COMMAND
 3) git commit -m "adding file" 
 4) git push 
 _________________________________________________________________
-COMMAND TO RUN VAGRANT
+COMMAND TO RUN VAGRANT AND ANSIBLE                                                         
 1) vagrant up
 2) vagrant destroy -f
 3) vagrant ssh-config
-4) 
+4) docker run --rm -it python bash (TO RUN DOCKER LOCALLY IN BASH)
+5) ansible-console localhost (to run ansible inside the container)
+6) docker container ps -a (to check container running or not)
+7) 
