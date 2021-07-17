@@ -67,4 +67,26 @@ COMMAND TO RUN VAGRANT AND ANSIBLE
 4) docker run --rm -it python bash (TO RUN DOCKER LOCALLY IN BASH)
 5) ansible-console localhost (to run ansible inside the container)
 6) docker container ps -a (to check container running or not)
-7) 
+
+______________________________________________________________________
+COOMAND TO OPERATE KUBERNETES
+1) pip3 install ansible boto boto3
+2) brew install kubectl 
+3) kubectl version --short
+4) kubectl get nodes
+5) kubectl version --short
+6) ./google-cloud-sdk/install.sh
+7) ./google-cloud-sdk/install.sh --screen-reader=true
+8) ./google-cloud-sdk/bin/gcloud init
+9) docker image build -t manish5593/getting-started-k8s:1.0 .
+10) docker image push manish5593/getting-started-k8s:1.0
+11) docker login 
+12) kubectl cluster-info 
+13) kubectl apply -f pod.yml
+14) kubectl get pods --watch
+15) kubectl get pods -o wide
+16) kubectl describe
+17) kubectl describe pods hello-pod 
+18) kubectl get pods
+19) kubectl delete -f pod.yml
+
