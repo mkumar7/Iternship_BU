@@ -13,6 +13,11 @@ docker image rm	Remove one or more images
 docker image save	Save one or more images to a tar archive (streamed to STDOUT by default)
 docker image tag	Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
 docker exec -i -t cddf1459d7f0 /bin/sh   
+
+*******************************************************************************************
+then re-tagged correctly with the format mentioned by @BMitch.
+docker tag centos:latest devopskalsym/centos7:latest
+the format used is this: docker tag local-image:tagname new-repo:tagname
 _________________________________________________________________________________________________
 COOMAND TO OPERATE KUBERNETES
 1) pip3 install ansible boto boto3
