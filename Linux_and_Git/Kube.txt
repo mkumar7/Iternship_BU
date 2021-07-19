@@ -1,6 +1,5 @@
 COMMAND TO RUN DOCKER IMAGE
 
-Command	Description
 docker image build	Build an image from a Dockerfile
 docker image history	Show the history of an image
 docker image import	Import the contents from a tarball to create a filesystem image
@@ -13,6 +12,7 @@ docker image push	Push an image or a repository to a registry
 docker image rm	Remove one or more images
 docker image save	Save one or more images to a tar archive (streamed to STDOUT by default)
 docker image tag	Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+docker exec -i -t cddf1459d7f0 /bin/sh   
 _________________________________________________________________________________________________
 COOMAND TO OPERATE KUBERNETES
 1) pip3 install ansible boto boto3
@@ -51,4 +51,9 @@ COOMAND TO OPERATE KUBERNETES
 35) kubectl rollout status deployment my-nginx
 36) kubectl rollout history deployment
 37) kubectl rollout undo deployment
-38) 
+________________________________________________________________________________________________
+TO INSTALL AND START HTTPD SERVER 
+1) brew install httpd 
+2) sudo apachectl start
+3) sudo apachectl stop
+4) 
