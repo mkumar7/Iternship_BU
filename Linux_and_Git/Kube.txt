@@ -1,3 +1,19 @@
+COMMAND TO RUN DOCKER IMAGE
+
+Command	Description
+docker image build	Build an image from a Dockerfile
+docker image history	Show the history of an image
+docker image import	Import the contents from a tarball to create a filesystem image
+docker image inspect	Display detailed information on one or more images
+docker image load	Load an image from a tar archive or STDIN
+docker image ls	List images
+docker image prune	Remove unused images
+docker image pull	Pull an image or a repository from a registry
+docker image push	Push an image or a repository to a registry
+docker image rm	Remove one or more images
+docker image save	Save one or more images to a tar archive (streamed to STDOUT by default)
+docker image tag	Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+_________________________________________________________________________________________________
 COOMAND TO OPERATE KUBERNETES
 1) pip3 install ansible boto boto3
 2) brew install kubectl 
@@ -19,7 +35,7 @@ COOMAND TO OPERATE KUBERNETES
 18) kubectl get pods
 19) kubectl delete -f pod.yml
 20) kubectl expose pod hello-pod --name=hello-svc --target-port=8080 --type=NodePort
-service/hello-svc exposed
+21) service/hello-svc exposed
 21) kubectl get svc
 22) kubectl delete svc hello-svc
 23) kubectl apply -f svc-nodeport.yml
@@ -30,3 +46,9 @@ service/hello-svc exposed
 28) kubectl rollout status deploy web-deploy
 30) kubectl rollout history deploy web-deploy
 31) kubectl rollout undo deploy web-deploy --to-revision=1
+33) kubectl create -f nginx.deployment.yml --save-config 
+34) kubectl apply -f nginx.deployment.yml
+35) kubectl rollout status deployment my-nginx
+36) kubectl rollout history deployment
+37) kubectl rollout undo deployment
+38) 
