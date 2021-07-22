@@ -61,4 +61,8 @@ TO INSTALL AND START HTTPD SERVER
 1) brew install httpd 
 2) sudo apachectl start
 3) sudo apachectl stop
-4) 
+______________________________________________________________________________________________
+COMMAND TO CHECK KUBERNETE CLUSTER
+1) kubectl config get-contexts
+2) kubectl cluster-info
+3) kubectl api-resources | more
